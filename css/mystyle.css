@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #ffffff;
+}
+  
+header > div {
+    background-color: none;
+    text-align: center;
+    line-height: 65px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    border-bottom: 4px solid #ffb700;
+}
+
+li a.active {
+    border-bottom: 4px solid #ffb700;
+}
+
+.menu {
+    margin: 0 50px 0 50px;
+}
+
+#input-grey {
+    border: none;
+    background: #d0d4d7 url('../img/magnifying_glass.png') right no-repeat;
+    background-position: 215px 7px;
+    color: #333333;
+    width: 220px;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.vacation {
+    display: flex;
+    flex-flow: row wrap;
+    background: url('../img/beach-coast-vacation.jpg') left top no-repeat;
+    align-items: center;
+    font-size: 18px;
+    margin-top: -22px;
+}
+
+.less {
+    width: 23%;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.greater {
+    width: 23%;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.vacation-text {
+    width: 54%;
+    color: #ffffff;
+    padding: 60px 0 60px 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.title1 {
+    font-weight: 500;
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+
+.text {
+    width: 380px;
+    padding-bottom: 50px;    
+    line-height: 1.6;
+}
+
+.btn-yellow {
+    border: none;
+    background: #ffb700 url('../img/paper-plane.png') right no-repeat;
+    background-position: 215px 7px;
+    color: #ffffff;
+    width: 240px;
+    padding: 7px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 300px 0 300px;
+}
+
+.attends {
+    padding: 30px 0 30px 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #888888;    
+}
+
+.text1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 40px 0 30px 0;
+}
+  
+.text1 > div {
+    width: 28%;
+    background-color: none;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.2;    
+}
+
+.magnificents, .cool-people {
+    padding-right: 8%;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+.link a:link {
+    text-decoration: none;
+    color: #ffb700;
+    font-size: 15px;
+    font-weight: 500;
+}
+  
+.link a:visited {
+    text-decoration: none;
+}
+  
+.link a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link {    
+    border-bottom: 13px solid #dae7f0;
+    padding: 5px 0 25px 0;
+}
+
+.text1 img {
+    padding-bottom: 25px;
+}
